@@ -1,0 +1,289 @@
+h1 {
+    text-align:center;
+}
+h1 {
+    color:#09bc8a;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.topnav {
+    background-color: #172a3a;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:  #f2f2f2;
+    text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #74b3ce;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #09bc8a;
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #09bc8a;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float:  none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #09bc8a;
+}
+
+.dropdown:hover  .dropdown-content{
+    display: block;
+}
+
+
+
+h2 {
+    text-align:center;
+}
+h2 {
+    color:#09bc8a;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin:auto;
+}
+
+.text {
+    color:#f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom:8px;
+    width: 100%;
+    text-align:center;
+}
+
+.numbertext {
+    color:#f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to{opacity: 1}
+}
+
+@media only screem and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+
+p{
+    text-align:center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h3 {
+    text-align:center;
+}
+h3 {
+    color:#09bc8a;
+}
+.video2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #image34 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#video3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#hamsterpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#fishvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#fishes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#aboutpets {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#birdss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#lizardvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    
+}
+
+#lizardpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+
+}
+
+#turtlevid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#turtlepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    
+}
+
+#tarant {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#tarants {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+#phylum {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #004346;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0%;
+}
